@@ -10,9 +10,10 @@ export const matadata: Metadata = {
 export default function about() {
   return　(
     <>
-      <main className="bg-blue-800 text-white p-6 space-y-6">
+      <main className="bg-blue-900/90 text-white p-6 space-y-6">
         <section>
-          <p className="text-lg">こんにちは、シグマです！<br />怠惰に過ごしています</p>
+          <p className="text-2xl">こんにちは、シグマです！</p>
+          <p>怠惰に過ごしています</p>
         </section>
         
         <section>
@@ -41,7 +42,7 @@ export default function about() {
 
             <Link href="https://www.geartics.com/sigma_7863" target="_blank" rel="noopener noreferrer">
               <Image src="/geartics-logo.jpg" width={40} height={40} alt="geartics-logo"></Image>
-              <span>Geartics(使っているデバイス)</span>
+              <span>Geartics<br />(使っているデバイス)</span>
             </Link>
 
           </div>
