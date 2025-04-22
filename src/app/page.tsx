@@ -10,7 +10,7 @@ export const matadata: Metadata = {
 export default function about() {
   return　(
     <>
-      <main className="bg-blue-900/90 text-white p-6 space-y-6">
+      <main className="bg-blue-800 text-white p-40 space-y-6">
         <section>
           <p className="text-2xl">こんにちは、シグマです！</p>
           <p>怠惰に過ごしています</p>
