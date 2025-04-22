@@ -1,16 +1,30 @@
-import Link from "next/link";
+import Link from 'next/link'
 
-export default function Header() {
-    return (
-        <>
-          <header className="bg-indigo-200 text-purple-800 flex justify-between items-center px-6 py-4">
-            <Link href="/"><h2 className="text-xl font-bold">シグマの部屋</h2></Link>
-            <div className="flex space-x-6 whitespace-nowrap">
-              <Link href="/blog"><h2 className="text-purple-800 hover:underline">blog</h2></Link>
-              <Link href="/works"><h2 className="text-purple-800 hover:underline">works</h2></Link>
-              <Link href="/"><h2 className="text-purple-800 hover:underline">シグマの部屋</h2></Link>
-            </div>
-          </header>
-        </>
-    );
+const Header = () => {
+  return (
+    <header className="bg-white shadow-sm">
+      <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
+        <h1 className="text-2xl font-bold text-gray-800">
+          <Link href="/">シグマの部屋</Link>
+        </h1>
+        
+        <div className="flex space-x-6">
+          <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+            about
+          </Link>
+          <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition-colors">
+            blog
+          </Link>
+          <Link href="/works" className="text-gray-600 hover:text-gray-900 transition-colors">
+            works
+          </Link>
+          <Link href="/Link" className="text-gray-600 hover:text-gray-900 transition-colors">
+            Link
+          </Link>
+        </div>
+      </nav>
+    </header>
+  )
 }
+
+export default Header
