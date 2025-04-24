@@ -58,7 +58,7 @@ export default function Home() {
 
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 flex items-center justify-center">
-                <Image src="/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="x-logo"/>
+                <Image src="/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="github-logo"/>
               </div>
               <p className="text-center">Github</p>
               <p className="text-center">sigma7863</p>
@@ -66,7 +66,7 @@ export default function Home() {
 
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 flex items-center justify-center">
-                <Image src="/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="x-logo"/>
+                <Image src="/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
               </div>
               <p className="text-center">Discord</p>
               <p className="text-center">sigma_7863</p>
@@ -84,6 +84,8 @@ export default function Home() {
 
         <section className="mb-8">
           <p className="mb-4">このサイトは以下の技術を使用して作成しました</p>
+          <Image src="/nextjs-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="geartics-logo"/>
+
         </section>
       </div>
     </main>
