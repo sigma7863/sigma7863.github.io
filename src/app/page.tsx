@@ -16,29 +16,28 @@ export default function Home() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-2xl font-medium mb-4">趣味</h2>
-          <ul className="space-y-6">
+          <h2 className="text-2xl font-medium mb-2">趣味</h2>
+          <ul className="space-y-3">
             <li>
               <div className="flex items-center gap-2">
                 <span className="text-xl">•</span>
                 <span className="text-xl">プログラミング</span>
               </div>
-              <p className="ml-6">最近はThree.jsに興味を持っている</p>
+              <p className="ml-4">最近はThree.jsに興味を持っている</p>
             </li>
             <li>
               <div className="flex items-center gap-2">
                 <span className="text-xl">•</span>
                 <span className="text-xl">読書</span>
               </div>
-              <p className="ml-6">小説や技術書を読んでいる</p>
-              <p className="ml-6"></p>
+              <p className="ml-4">小説や技術書を読んでいる</p>
             </li>
             <li>
               <div className="flex items-center gap-2">
                 <span className="text-xl">•</span>
                 <span className="text-xl">ゲーム</span>
               </div>
-              <p className="ml-6">惰性でスプラトゥーン・マリオカートをしている</p>
+              <p className="ml-4">惰性でスプラトゥーン・マリオカートをしている</p>
             </li>
           </ul>
         </section>
