@@ -77,7 +77,7 @@ export default function Home() {
                   <Image src="/geartics-logo.jpg" width={40} height={40} className="w-12 h-12 fill-current" alt="geartics-logo"/>
                 </div>
                 <p className="text-center">Geartics</p>
-                <p className="text-center">↑使っているデバイス</p>
+                <p className="text-center">使っているデバイス</p>
               </Link>
             </div>
           </section>
