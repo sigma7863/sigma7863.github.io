@@ -11,5 +11,5 @@ export default function Header (){
         <Link href="/link" className="hover:text-gray-900">Link</Link>
       </nav>
     </header>
-  )
+  );
 }

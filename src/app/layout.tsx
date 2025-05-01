@@ -18,5 +18,5 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
         <Footer/>
       </body>
     </html>
-  )
+  );
 }
