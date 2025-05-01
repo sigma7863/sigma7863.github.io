@@ -13,6 +13,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
   return (
     <html lang="ja">
       <body>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="c3579817-4c9c-45e5-aa3f-89f96eb742d8"></script>
         <Header/>
         {children}
         <Footer/>
