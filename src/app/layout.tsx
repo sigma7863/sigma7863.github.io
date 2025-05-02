@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Clarity from '@microsoft/clarity';
 
 export const metadata: Metadata = {
   title: "シグマの部屋",
@@ -10,8 +9,6 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
-  const projectId = "rdfgm0em5a"
-  Clarity.init(projectId);
 
   return (
     <html lang="ja">
