@@ -52,7 +52,7 @@ export default function Home() {
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="x-logo"/>
                 </div>
-                <p className="text-center">X(旧Twitter)</p>
+                <p className="text-center">X(Twitter)</p>
                 <p className="text-center">@sigma_7863</p>
               </Link>
 
