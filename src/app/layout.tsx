@@ -14,8 +14,10 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
     <html lang="ja">
       <body>
         <script defer src="https://cloud.umami.is/script.js" data-website-id="c3579817-4c9c-45e5-aa3f-89f96eb742d8"></script>
+        <script defer data-domain="sigma7863.github.io" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+        <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
         <Header/>
-        {children}
+          {children}
         <Footer/>
       </body>
     </html>
