@@ -1,16 +1,14 @@
-# 制作中
-
-## ToDo
+# ToDo
 
 ### Figma
 
 + [ ] BlogのUI
 + [ ] WorksのUI
-+ [ ] LinksのUI
++ [ ] LinkのUI
 
 ### WEBサイト
 
-+ [ ] アニメーションを追加
++ [ ] アニメーション
 + [ ] レスポンシブ対応
 + [ ] CMS選定
 + [ ] CMS導入
