@@ -11,7 +11,7 @@ export default function Home() {
             <div className="space-y-2">
               <h2 className="text-3xl font-medium">こんにちは、シグマです！</h2>
               <p className="text-lg">怠惰に過ごしています</p>
-              <p className="text-lg">プログラミングと読書をしていて、</p>
+              <p className="text-lg">プログラミングや読書などをしていて、</p>
               <p className="text-lg">好奇心のままマイペースに学んでいます</p>
             </div>
           </section>
