@@ -1,5 +1,23 @@
 # 制作中
 
+## ToDo
+
+### Figma
+
++ [ ] BlogのUI
++ [ ] WorksのUI
++ [ ] LinksのUI
+
+### WEBサイト
+
++ [ ] アニメーションを追加
++ [ ] レスポンシブ対応
++ [ ] CMS選定
++ [ ] CMS導入
++ [ ] Fontカスタム(GoogleFont, AdobeFont etc...)
++ [ ] Cloudflere(使うかはわからない)
++ [ ] Analytics導入(選定含め)
+
 <!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
