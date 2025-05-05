@@ -48,7 +48,7 @@ export default function Home() {
             <p className="mb-6">フォロー・フレンドいつでも大歓迎です！</p>
 
             <div className="grid grid-cols-2 md:grid-cols-6">
-              <Link href="https://x.com/sigma_7863" className="flex flex-col items-center">
+              <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="x-logo"/>
                 </div>
@@ -56,7 +56,7 @@ export default function Home() {
                 <p className="text-center">@sigma_7863</p>
               </Link>
 
-              <Link href="https://github.com/sigma7863" className="flex flex-col items-center">
+              <Link href="https://github.com/sigma7863" target="_blank" className="flex flex-col items-center">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="github-logo"/>
                 </div>
