@@ -11,7 +11,7 @@ export default function Links() {
             <p className="text-lg">募集中です！<br />載せて欲しい方がいたら、僕のXアカウントのDMまで！</p>
           </section>
 
-          <hr className="my-4"/>
+          <hr className="my-6"/>
       
           <section>
             <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
