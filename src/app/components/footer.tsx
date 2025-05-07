@@ -1,13 +1,14 @@
+import { ExternalLink } from 'lucide-react';
+
 export default function Footer() {
   return(
     <>
       <footer className="bg-blue-900 text-white text-center py-4">
-        <hr className="border-white my-4" />
-        <p>© 2025 Sigma7863</p>
-        <p>このサイトは<a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a>と
-          <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>
-          <a href=""></a>
-          を使って作成しました
+        <hr className="border-white my-3" />
+        <p className="text-center inline-flex items-center space-x-1">
+          © 2025 Sigma7863 このサイトの技術スタックは
+          <a href="" className="underline">こちらから</a>
+          <ExternalLink className="w-4 h-4"/>
         </p>
       </footer>
     </>
