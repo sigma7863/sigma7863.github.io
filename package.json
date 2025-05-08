@@ -12,10 +12,12 @@
     "@contentsquare/tag-sdk": "^1.1.0",
     "@microsoft/clarity": "^1.0.0",
     "lucide-react": "^0.507.0",
+    "newt-client-js": "^3.3.8",
     "next": "15.3.1",
     "next-cloudinary": "^6.16.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
