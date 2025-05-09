@@ -1,7 +1,7 @@
-import { getArticles, getArticleBySlug } from "...//lib/newt"
-import styles from "/app/page.module.css"
+import { getArticles, getArticleBySlug } from "@/lib/newt"
+import styles from "@/page.module.css"
 import type { Metadata } from "next"
-import type { Article } from "./types/article"
+import type { Article } from "@/types/article"
 
 type Params = Promise<{ slug: string }>
 
