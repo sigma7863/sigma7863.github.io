@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { getArticles } from "../lib/newt";
+import styles from ../global.css
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "シグマのブログ",
-  description: "ブログで日記や本の感想など、色々書いています",
+  description: "日記や本の感想など、色々書いています",
 }
 
 export default async function Blog() {
