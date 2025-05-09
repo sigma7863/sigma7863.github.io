@@ -1,7 +1,7 @@
-import 'server-only'
-import { createClient } from 'newt-client-js'
-import { cache } from 'react'
-import type { Article } from '../types/article'
+import "server-only"
+import { createClient } from "newt-client-js"
+import { cache } from "react"
+import type { Article } from "@/types/article"
 
 const client = createClient({
   spaceUid: process.env.NEWT_SPACE_UID + '',
