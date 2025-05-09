@@ -45,8 +45,8 @@ export default function Home() {
           </section>
           
           <section className="mb-16">
-            <h2 className="text-[1.7rem] font-medium mb-2">Link</h2>
-            <p className="text-xl mb-6">フォロー・フレンドいつでも大歓迎です！</p>
+            <h2 className="text-[1.7rem] font-medium mb-1">Link</h2>
+            <p className="text-xl mb-6">フォロー ・ フレンドいつでも大歓迎です！</p>
 
             <div className="grid grid-cols-2 md:grid-cols-6">
               <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center hover:underline">
