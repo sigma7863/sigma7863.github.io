@@ -2,15 +2,15 @@
 
 ### Figma
 
-+ [ ] BlogのUI
-+ [ ] WorksのUI
-+ [ ] LinkのUI
++ [x] BlogのUI
++ [x] WorksのUI
++ [x] LinkのUI
 
 ### WEBサイト
 
 + [ ] アニメーション
 + [ ] レスポンシブ対応
-+ [ ] CMS選定
++ [x] CMS選定
 + [ ] CMS導入
 + [ ] Fontカスタム(GoogleFont, AdobeFont etc...)
 + [x] Cloudflere(使うかはわからない)
