@@ -11,7 +11,10 @@
   "dependencies": {
     "@contentsquare/tag-sdk": "^1.1.0",
     "@microsoft/clarity": "^1.0.0",
+    "dayjs": "^1.11.13",
+    "html-react-parser": "^5.2.4",
     "lucide-react": "^0.507.0",
+    "microcms-js-sdk": "^3.2.0",
     "newt-client-js": "^3.3.8",
     "next": "15.3.1",
     "next-cloudinary": "^6.16.0",
