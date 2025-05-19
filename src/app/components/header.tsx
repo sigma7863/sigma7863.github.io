@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function Header (){
+export default function Header() {
   return (
     <>
       <header className="bg-indigo-200 p-4 flex justify-between items-center">
