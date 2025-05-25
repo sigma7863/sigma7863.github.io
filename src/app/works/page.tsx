@@ -21,7 +21,7 @@ export default function Works() {
               <p className="text-sm mt-1">
                 スプラ3のガチャやブキチドローンで出た結果などの統計を取っているスプレッドシートです
               </p>
-              <p className="inline-flex items-center text-base text-blue-600 mt-2">
+              <p className="inline-flex items-center text-base text-blue-600 mt-2 hover:underline">
                 クリックしてアクセス
                 <ExternalLink className="w-4 h-4" />
               </p>
