@@ -29,7 +29,7 @@ export default function Links() {
             <p className="text-xl mb-6">随時載せていく予定です</p>
         
             <Link href="https://splatoon3.ink/" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
-              <Image src="/splatoon3Ink-logo.png" width={40} height={40} alt="Splatoon3-Icon" className="w-12 h-12"/>
+              <Image src="/splatoon3Ink-logo.png" alt="Splatoon3-Icon" width={40} height={40}  className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
                   <h3 className="text-xl font-bold">Splatoon3.ink</h3>
