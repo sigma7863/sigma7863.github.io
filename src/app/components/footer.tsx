@@ -9,7 +9,7 @@ export default function Footer() {
           © 2025 Sigma7863 このサイトの技術スタックは
           <a href="/techstack" className="inline-flex items-center space-x-1 underline hover:no-underline ml-1">
             <span>こちらから</span>
-            <ExternalLink className="w-4 h-4" />
+            <ExternalLink className="w-4 h-4"/>
           </a>
         </p>
       </footer>
