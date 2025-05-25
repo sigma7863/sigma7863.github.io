@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "シグマの部屋",
-  description: "シグマのWEBサイトです！",
+  description: "シグマのWEBサイトです。Next.jsやTailwind CSS, Github Pageを使っています。",
 }
 
 export default function RootLayout({children}: Readonly<{children: React.ReactNode}>) {
