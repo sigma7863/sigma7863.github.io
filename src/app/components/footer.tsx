@@ -6,9 +6,11 @@ export default function Footer() {
       <footer className="bg-blue-900 text-white text-center py-4">
         <hr className="border-white my-3" />
         <p className="text-center inline-flex items-center space-x-1">
-          © 2025 Sigma7863  このサイトの技術スタックは
-          <a href="" className="underline hover:no-underline">こちらから</a>
-          <ExternalLink className="w-4 h-4"/>
+          © 2025 Sigma7863 このサイトの技術スタックは
+          <a href="/techstack" className="inline-flex items-center space-x-1 underline hover:no-underline ml-1">
+            <span>こちらから</span>
+            <ExternalLink className="w-4 h-4" />
+          </a>
         </p>
       </footer>
     </>
