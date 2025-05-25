@@ -15,19 +15,16 @@ export default function Works() {
             target="_blank"
             className="bg-[#c2cafc] text-black rounded-2xl overflow-hidden hover:scale-101 transition-transform duration-180"
           >
-            <Image src="/splatoon3-spreadsheet.png" width={40} height={40} alt="splatoon3-spreadsheet" className="w-full h-auto"/>
+            <Image src="/splatoon3-spreadsheet.png" width={345.7} height={163.8} alt="splatoon3-spreadsheet" className="w-full h-auto"/>
             <div className="p-4">
               <h2 className="text-lg font-bold">スプラトゥーン3 スプレッドシート</h2>
               <p className="text-sm mt-1">
                 スプラ3のガチャやブキチドローンで出た結果などの統計を取っているスプレッドシートです
               </p>
-              <a href="https://docs.google.com/spreadsheets/d/1CHVfHxc5I3HMjK6TT19GLWB0EyuDyx4iaTRm2h4iTQs/edit?usp=sharing"
-                target="_blank"
-                className="inline-flex items-center text-base text-blue-600 text-right mt-2 hover:underline"
-              >
+              <p className="inline-flex items-center text-base text-blue-600 mt-2">
                 クリックしてアクセス
                 <ExternalLink className="w-4 h-4" />
-              </a>
+              </p>
             </div>
           </Link>
           
