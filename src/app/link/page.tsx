@@ -7,7 +7,6 @@ export default function Links() {
     <>  
       <main className="min-h-screen bg-blue-900 text-white">
         <div className="max-w-4xl mx-auto px-4 py-8">
-          {/* 相互リンク */}
           <section className="mb-6">
             <h2 className="text-3xl font-bold mb-2">相互リンク</h2>
             <p className="text-xl">
@@ -23,7 +22,6 @@ export default function Links() {
 
           <hr className="my-6"/>
 
-          {/* おすすめのサイト */}
           <section>
             <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
             <p className="text-xl mb-6">随時載せていく予定です</p>
