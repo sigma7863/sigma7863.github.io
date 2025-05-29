@@ -29,7 +29,6 @@ export default function Works() {
               <p className="text-black text-xl mb-2">？？？</p>
               <h2 className="text-black text-lg font-bold">ComingSoon...</h2>
               <h2 className="text-black text-lg">何をやるかは決まっていない</h2>
-
             </div>
             
             <div className="bg-[#c2cafc] rounded-2xl aspect-4/3" />
