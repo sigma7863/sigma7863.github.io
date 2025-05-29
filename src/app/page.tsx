@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <main className="min-h-screen bg-blue-900 text-white">
         <div className="max-w-4xl mx-auto px-4 py-8">
-          <section className="flex flex-col md:flex-row gap-8 mb-16">
+          <section className="flex flex-col md:flex-row gap-8 mb-8">
             <Image src="/a.png" width={180} height={180} alt="my-icon"/>
             <div className="space-y-2">
               <h2 className="text-3xl font-medium">こんにちは、シグマです！</h2>
@@ -17,7 +17,7 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mb-16">
+          <section className="mb-8">
             <h2 className="text-2xl font-medium mb-2">趣味</h2>
             <ul className="space-y-3">
               <li>
@@ -49,9 +49,9 @@ export default function Home() {
             <p className="text-xl mb-6">フォロー ・ フレンドいつでも大歓迎です！</p>
 
             <div className="grid grid-cols-2 md:grid-cols-6">
-              <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center hover:underline">
+              <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center hover:text-[#2CB7A2]">
                 <div className="w-16 h-16 flex items-center justify-center">
-                  <Image src="/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="x-logo"/>
+                  <Image src="/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current hover:cyan-500" alt="x-logo"/>
                 </div>
                 <p className="text-center inline-flex items-center space-x-1">
                   <span>X(Twitter)</span>
@@ -60,7 +60,7 @@ export default function Home() {
                 <p className="text-center">@sigma_7863</p>
               </Link>
 
-              <Link href="https://github.com/sigma7863" target="_blank" className="flex flex-col items-center hover:underline">
+              <Link href="https://github.com/sigma7863" target="_blank" className="flex flex-col items-center hover:text-[#2CB7A2]">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="github-logo"/>
                 </div>
@@ -71,7 +71,7 @@ export default function Home() {
                 <p className="text-center">sigma7863</p>
               </Link>
 
-              <div className="flex flex-col items-center hover:underline">
+              <div className="flex flex-col items-center hover:">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
                 </div>
@@ -81,17 +81,6 @@ export default function Home() {
                 </p>
                 <p className="text-center">sigma_7863</p>
               </div>
-
-              <Link href="https://www.geartics.com/sigma7863" target="_blank" className="flex flex-col items-center hover:underline">
-                <div className="w-16 h-16 flex items-center justify-center">
-                  <Image src="/geartics-logo.jpg" width={40} height={40} className="w-12 h-12 fill-current" alt="geartics-logo"/>
-                </div>
-                <p className="text-center inline-flex items-center space-x-1">
-                  <span>Geartics</span>
-                  <ExternalLink className="w-4 h-4" />
-                </p>
-                <p className="text-center">使っているデバイス</p>
-              </Link>
             </div>
           </section>
         </div>
