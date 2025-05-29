@@ -7,7 +7,7 @@ export default function Footer() {
         <hr className="border-white my-3" />
         <p className="text-center inline-flex items-center space-x-1">
           © 2025 Sigma7863 このサイトの技術スタックは
-          <a href="/techstack" className="inline-flex items-center space-x-1 underline hover:no-underline ml-1">
+          <a href="/techstack" className="inline-flex items-center space-x-1 ml-1 underline hover:no-underline">
             <span>こちらから</span>
             <ExternalLink className="w-4 h-4"/>
           </a>
