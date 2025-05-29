@@ -16,7 +16,7 @@
     "lucide-react": "^0.507.0",
     "microcms-js-sdk": "^3.2.0",
     "newt-client-js": "^3.3.8",
-    "next": "^15.3.2",
+    "next": "^15.3.3",
     "next-cloudinary": "^6.16.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
