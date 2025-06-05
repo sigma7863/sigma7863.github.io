@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ExternalLink, Clipboard } from 'lucide-react';
+import { ExternalLink} from 'lucide-react';
 
 export default function Home() {
   return (
@@ -71,16 +71,16 @@ export default function Home() {
                 <p className="text-center">sigma7863</p>
               </Link>
 
-              <div className="flex flex-col items-center hover:">
+              <Link href="http://discordapp.com/users/1078241292422762579" target="_blank" className="flex flex-col items-center hover:">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
                 </div>
                 <p className="text-center inline-flex items-center space-x-1">
                   <span>Discord</span>
-                  <Clipboard className="w-4 h-4" />
+                  <ExternalLink className="w-4 h-4" />
                 </p>
                 <p className="text-center">sigma_7863</p>
-              </div>
+              </Link>
             </div>
           </section>
         </div>
