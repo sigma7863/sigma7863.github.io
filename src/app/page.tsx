@@ -71,7 +71,7 @@ export default function Home() {
                 <p className="text-center">sigma7863</p>
               </Link>
 
-              <Link href="http://discordapp.com/users/1078241292422762579" target="_blank" className="flex flex-col items-center hover:">
+              <Link href="http://discordapp.com/users/1078241292422762579" target="_blank" className="flex flex-col items-center hover:text-[#2CB7A2]">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
                 </div>
