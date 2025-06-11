@@ -31,7 +31,7 @@ export default function Works() {
               <h2 className="text-black text-lg">一応やりたいことは決まっている</h2>
             </div>
             
-            <div className="bg-[#c2cafc] rounded-2xl aspect-4/3" />
+            <div className="bg-[#c2cafc] rounded-2xl aspext-square" />
           </div>
         </div>
       </main>
