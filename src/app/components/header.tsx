@@ -63,10 +63,10 @@ export default function Header() {
         </div>
 
         <nav className="hidden sm:flex gap-6 text-gray-600">
-          <Link href="/" className="hover:underline text-gray-900">about</Link>
-          <Link href="/blog" className="hover:underline text-gray-900">blog</Link>
-          <Link href="/works" className="hover:underline text-gray-900">works</Link>
-          <Link href="/link" className="hover:underline text-gray-900">Link</Link>
+          <Link href="/" className="hover:text-slate-500 text-lg text-gray-900">about</Link>
+          <Link href="/blog" className="hover:text-slate-500 text-lg text-gray-900">blog</Link>
+          <Link href="/works" className="hover:text-slate-500 text-lg text-gray-900">works</Link>
+          <Link href="/Link" className="hover:text-slate-500 text-lg text-gray-900">Link</Link>
         </nav>
       </header>
 
