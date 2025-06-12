@@ -7,8 +7,8 @@ export default function Home() {
     <>
       <main className="min-h-screen bg-blue-900 text-white">
         <div className="max-w-4xl mx-auto px-4 py-8">
-          <section className="flex flex-col md:flex-row gap-8 mb-8">
-            <Image src="/a.png" width={180} height={180} alt="my-icon"/>
+          <section className="flex flex-col md:flex-row gap-8 mb-8 items-center">
+            <Image src="/a.png" width={180} height={180} alt="my-icon" className="flex justify-center md:justify-start"/>
             <div className="space-y-2">
               <h2 className="text-3xl font-medium">こんにちは、シグマです！</h2>
               <p className="text-lg">怠惰に過ごしています</p>
@@ -39,13 +39,13 @@ export default function Home() {
                   <span className="text-xl">•</span>
                   <span className="text-[1.4rem]">読書</span>
                 </div>
-                <p className="text-xl ml-4 mb-4">小説や技術書を読んでいる<br/></p>
+                <p className="text-xl ml-4 mb-1">哲学系の本や技術書を読んでいる<br/></p>
                 <p className="text-xl ml-4 mb-4">最近ほとんど読めていない</p>
               </li>
             </ul>
           </section>
           
-          <section className="mb-16">
+          <section className="mb-12">
             <h2 className="text-[1.7rem] font-medium mb-1">Link</h2>
             <p className="text-xl mb-6">フォロー ・ フレンドいつでも大歓迎です！</p>
 
@@ -83,6 +83,18 @@ export default function Home() {
                 <p className="text-center">sigma_7863</p>
               </Link>
             </div>
+          </section>
+
+          <section className="">
+            <h2 className="text-[1.6rem] font-medium mb-2">相互リンクを募集しています！</h2>
+            <p className="text-xl">
+              載せて欲しい方がいたら、
+              <span className="inline-flex items-center space-x-1">
+                <a href="https://x.com/sigma_7863" target="_blank" className="text-green-400 hover:underline">XのDM(@sigma_7863)</a>
+                <ExternalLink className="text-green-400 w-5 h-5"/>
+                まで！
+              </span>
+            </p>
           </section>
         </div>
       </main>
