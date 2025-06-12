@@ -7,21 +7,6 @@ export default function Links() {
     <>  
       <main className="min-h-screen bg-blue-900 text-white">
         <div className="max-w-4xl mx-auto px-4 py-8">
-          <section className="mb-6">
-            <h2 className="text-3xl font-bold mb-2">相互リンク</h2>
-            <p className="text-xl">
-              募集中です！<br />載せて欲しい方がいたら、
-              <span className="inline-flex items-center space-x-1">
-                <a href="https://x.com/sigma_7863" target="_blank" className="text-green-400 hover:underline">XのDM(@sigma_7863)</a>
-                <ExternalLink className="text-green-400 w-5 h-5"/>
-                まで！
-              </span>
-              
-            </p>
-          </section>
-
-          <hr className="my-6"/>
-
           <section>
             <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
             <p className="text-xl mb-6">随時載せていく予定です</p>
@@ -38,7 +23,7 @@ export default function Links() {
             </Link>
         
             <Link href="https://onlineminitools.com" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
-              <Image src="/omt-logo.png" alt="OMT Icon" width={40} height={40} className="w-12 h-12"/>
+              <Image src="/omt-logo.png" alt="OMT-Icon" width={40} height={40} className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
                   <h3 className="text-xl font-bold">Onlineminitools.com</h3>
@@ -48,12 +33,16 @@ export default function Links() {
               </div>
             </Link>
         
-            {/* <div className="flex items-start space-x-4">
-              <Image src="HighscoolClassic-logo.png" alt="教科書画像" className="w-12 h-12"/>
+            <Link href="http://juppo.seesaa.net" target="_blank" className="flex items-start space-x-4 hover:underline">
+              <Image src="/HighSchoolClassic-logo.jpg" alt="HighSchoolClassic-logo" width={40} height={40} className="w-12 h-12"/>
               <div>
-                <p>教科書にある古文を4コマ漫画で解説しているサイト<br />古文苦手なので参考にしている</p>
+                <div className="flex items-center space-x-1">
+                  <h3 className="text-xl font-bold">高校古文こういう話</h3>
+                  <ExternalLink className="w-5 h-5" />
+                </div>
+                <p>教科書に掲載されている古文を4コマ漫画で解説しているサイト</p>
               </div>
-            </div> */}
+            </Link>
           </section>
         </div>  
       </main>
