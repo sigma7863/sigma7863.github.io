@@ -66,7 +66,7 @@ export default function Header() {
           <Link href="/" className="hover:text-slate-500 text-lg text-gray-900">about</Link>
           <Link href="/blog" className="hover:text-slate-500 text-lg text-gray-900">blog</Link>
           <Link href="/works" className="hover:text-slate-500 text-lg text-gray-900">works</Link>
-          <Link href="/Link" className="hover:text-slate-500 text-lg text-gray-900">Link</Link>
+          <Link href="/link" className="hover:text-slate-500 text-lg text-gray-900">Link</Link>
         </nav>
       </header>
 
