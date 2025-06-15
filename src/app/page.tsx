@@ -5,7 +5,7 @@ import { ExternalLink } from 'lucide-react';
 export default function Home() {
   return (
     <>
-      <main className="min-h-screen bg-blue-900 text-white md:max-w-screen-md mx-auto">
+      <main className="min-h-screen bg-blue-900 text-white container mx-auto px-4">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <section className="flex flex-col sm:flex-row gap-8 mb-8 items-center">
             <Image src="/about/my-icon.png" width={180} height={180} alt="my-icon" className="flex justify-center md:justify-start"/>

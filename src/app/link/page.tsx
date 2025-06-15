@@ -5,7 +5,7 @@ import { ExternalLink } from 'lucide-react';
 export default function Links() {
   return (
     <>  
-      <main className="min-h-screen bg-blue-900 text-white">
+      <main className="min-h-screen bg-blue-900 text-white container mx-auto px-2">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <section>
             <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
