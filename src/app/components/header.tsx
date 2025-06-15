@@ -8,7 +8,6 @@ import { motion, AnimatePresence } from "framer-motion";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const toggleMenu = () => setMenuOpen(!menuOpen);
-
   const menuItemVariants = {
     hidden: { opacity: 0, y: 10 },
     visible: (i: number) => ({
@@ -20,7 +19,13 @@ export default function Header() {
       },
     }),
   };
-
+  const menuItems = [
+    { label: "about", href: "/" },
+    { label: "blog", href: "/blog" },
+    { label: "works", href: "/works" },
+    { label: "Link", href: "/link" }, // 大文字で表示、パスは小文字
+  ];
+  
   return (
     <>
       <header className="bg-indigo-200 p-4 flex justify-between items-center z-50 relative">
@@ -63,10 +68,15 @@ export default function Header() {
         </div>
 
         <nav className="hidden sm:flex gap-6 text-gray-600">
-          <Link href="/" className="hover:text-slate-500 text-lg text-gray-900">about</Link>
-          <Link href="/blog" className="hover:text-slate-500 text-lg text-gray-900">blog</Link>
-          <Link href="/works" className="hover:text-slate-500 text-lg text-gray-900">works</Link>
-          <Link href="/link" className="hover:text-slate-500 text-lg text-gray-900">Link</Link>
+          {menuItems.map(({ label, href }) => (
+            <Link
+              key={label}
+              href={href}
+              className="hover:text-slate-500 text-lg text-gray-900"
+            >
+              {label}
+            </Link>
+          ))}
         </nav>
       </header>
 
@@ -87,7 +97,7 @@ export default function Header() {
               exit="hidden"
               className="flex flex-col items-start pt-4 pb-4 pl-6 pr-4"
             >
-              {["about", "blog", "works", "Link"].map((label, i) => (
+              {menuItems.map(({ label, href }, i) => (
                 <motion.li
                   key={label}
                   custom={i}
@@ -98,7 +108,7 @@ export default function Header() {
                   className="w-full"
                 >
                   <Link
-                    href={label === "about" ? "/" : `/${label}`}
+                    href={href}
                     onClick={toggleMenu}
                     className="block py-3 w-full text-xl hover:underline"
                   >
