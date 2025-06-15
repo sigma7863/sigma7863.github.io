@@ -50,7 +50,7 @@ export default function Home() {
             <p className="text-xl mb-6">フォロー ・ フレンド いつでも大歓迎です！</p>
 
             <div className="grid grid-cols-2 sm:grid-cols-6">
-              <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center hover:text-[#2CB7A2] hover:underline">
+              <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/about/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current hover:cyan-500" alt="x-logo"/>
                 </div>
@@ -61,7 +61,7 @@ export default function Home() {
                 <p className="text-center">@sigma_7863</p>
               </Link>
 
-              <Link href="https://github.com/sigma7863" target="_blank" className="flex flex-col items-center hover:text-[#2CB7A2] hover:underline">
+              <Link href="https://github.com/sigma7863" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/about/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="github-logo"/>
                 </div>
@@ -72,7 +72,7 @@ export default function Home() {
                 <p className="text-center">sigma7863</p>
               </Link>
 
-              <Link href="http://discordapp.com/users/1078241292422762579" target="_blank" className="flex flex-col items-center hover:text-[#2CB7A2] hover:underline">
+              <Link href="http://discordapp.com/users/1078241292422762579" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
                 <div className="w-16 h-16 flex items-center justify-center">
                   <Image src="/about/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
                 </div>
