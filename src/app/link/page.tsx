@@ -11,8 +11,8 @@ export default function Links() {
             <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
             <p className="text-xl mb-6">随時載せていく予定です</p>
         
-            <Link href="https://splatoon3.ink/" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
-              <Image src="/splatoon3Ink-logo.png" alt="Splatoon3-Icon" width={40} height={40}  className="w-12 h-12"/>
+            <Link href="https://splatoon3.ink" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
+              <Image src="/Link/splatoon3Ink-logo.png" alt="Splatoon3-Icon" width={40} height={40}  className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
                   <h3 className="text-xl font-bold">Splatoon3.ink</h3>
@@ -23,7 +23,7 @@ export default function Links() {
             </Link>
         
             <Link href="https://onlineminitools.com" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
-              <Image src="/omt-logo.png" alt="OMT-Icon" width={40} height={40} className="w-12 h-12"/>
+              <Image src="/Link/omt-logo.png" alt="OMT-Icon" width={40} height={40} className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
                   <h3 className="text-xl font-bold">Onlineminitools.com</h3>
@@ -34,7 +34,7 @@ export default function Links() {
             </Link>
         
             <Link href="http://juppo.seesaa.net" target="_blank" className="flex items-start space-x-4 hover:underline">
-              <Image src="/HighSchoolClassic-logo.jpg" alt="HighSchoolClassic-logo" width={40} height={40} className="w-12 h-12"/>
+              <Image src="/Link/HighSchoolClassic-logo.jpg" alt="HighSchoolClassic-logo" width={40} height={40} className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
                   <h3 className="text-xl font-bold">高校古文こういう話</h3>
