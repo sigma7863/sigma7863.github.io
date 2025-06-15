@@ -12,7 +12,7 @@ export default function Blog() {
         <div className="max-w-4xl mx-auto px-4 py-8">
           <section>
             <h2 className="text-3xl font-bold mb-2">Blog</h2>
-            <p className="text-xl mb-6">書くか書かないかは未定...</p>
+            <p className="text-2xl mb-6">書くか書かないかは未定...</p>
           </section>
         </div>  
       </main>
