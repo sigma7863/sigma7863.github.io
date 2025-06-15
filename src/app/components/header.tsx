@@ -25,7 +25,7 @@ export default function Header() {
     { label: "works", href: "/works" },
     { label: "Link", href: "/link" }, // 大文字で表示、パスは小文字
   ];
-  
+
   return (
     <>
       <header className="bg-indigo-200 p-4 flex justify-between items-center z-50 relative">
