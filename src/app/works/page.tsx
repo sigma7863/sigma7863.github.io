@@ -24,7 +24,7 @@ export default function Works() {
               </div>
             </Link>
             
-            <div className="bg-[#cdd2fb] rounded-2xl aspext-square flex flex-col items-center justify-center text-center shadow-md">
+            <div className="bg-[#cdd2fb] rounded-2xl aspect-square flex flex-col items-center justify-center text-center shadow-md">
               <p className="text-black text-xl mb-2">？？？</p>
               <h2 className="text-black text-lg font-bold">ComingSoon...</h2>
               <h2 className="text-black text-lg">一応やりたいことは決まっている</h2>
