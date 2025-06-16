@@ -2,22 +2,24 @@
 ## アナリティクス
 ### Umami(オープンソース)
 アナリティクスのサービスは、企業向けのものが多く、またTypeScript用に書き換えたり、XSS対策をしないといけなかったりする必要があるので、使えるサービスが限られていました。<br/>
-その中で、導入しやすかったうちの一つが、Umamiでした。
-[公式サイト](https://umami.is/)
+その中で、導入しやすかったうちの一つが、Umamiでした。<br/>
+[公式サイト](https://umami.is/) <br/>
 [リポジトリ](https://github.com/umami-software/umami)
 ### Cloudflare Insights
-Umamiと同様で、導入しやすかったので、採用しました。
+Umamiと同様で、導入しやすかったので、採用しました。<br/>
 [公式サイト](https://www.cloudflare.com/ja-jp/web-analytics/)
 ## フレームワーク
 ### Next.js(オープンソース)
-ポートフォリオにはあまり適していないかもしれませんが、採用した理由としては、使ってみたかったという単純な理由です。
-[公式サイト](https://nextjs.org/)
+ポートフォリオにはあまり適していないかもしれませんが、採用した理由としては、使ってみたかったという単純な理由です。<br/>
+[公式サイト](https://nextjs.org/)<br/>
 [リポジトリ](https://github.com/vercel/next.js)
 ### Tailwind CSS(オープンソース)
-Tailwind CSSは、
+Tailwind CSSは、CSSのフレームワークで、HTMLのタグのクラスに直接CSSを割り当てられるので、便利です。<br/>
+ただ、可読性が減るので、大規模なチームでの開発などではあまり適していません。
 ## フォント
 ### Lucide(オープンソース)
 
+Wappalyzerを使って色々なサイトを見ていた時に見つけたので導入してみました。
 ## アニメーション
 ### Framer Motion
 
