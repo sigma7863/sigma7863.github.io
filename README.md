@@ -19,6 +19,7 @@ Tailwind CSSは、CSSのフレームワークで、HTMLのタグのクラスに�
 ## アイコン
 ### Lucide(オープンソース)
 Lucideは、リンクに飛ぶアイコンや、バッテリーのアイコンなどがReactなどのJavaScriptライブラリで使えるアイコンライブラリです。<br/>
+Wappalyzerを使って色々なサイトを見ていた時に見つけたので導入してみました。<br/>
 自分のポートフォリオでどこで使っているかは容易に分かると思うので、当ててみてください。<br/>
 [公式サイト](https://lucide.dev/)<br/>
 [リポジトリ](https://github.com/lucide-icons/lucide)
