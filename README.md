@@ -1,4 +1,28 @@
-# ToDo
+# 技術スタック
+## アナリティクス
+### Umami(オープンソース)
+アナリティクスのサービスは、企業向けのものが多く、またTypeScript用に書き換えたり、XSS対策をしないといけなかったりする必要があるので、使えるサービスが限られていました。<br/>
+その中で、導入しやすかったうちの一つが、Umamiでした。
+[公式サイト](https://umami.is/)
+[リポジトリ](https://github.com/umami-software/umami)
+### Cloudflare Insights
+Umamiと同様で、導入しやすかったので、採用しました。
+[公式サイト](https://www.cloudflare.com/ja-jp/web-analytics/)
+## フレームワーク
+### Next.js(オープンソース)
+ポートフォリオにはあまり適していないかもしれませんが、採用した理由としては、使ってみたかったという単純な理由です。
+[公式サイト](https://nextjs.org/)
+[リポジトリ](https://github.com/vercel/next.js)
+### Tailwind CSS(オープンソース)
+Tailwind CSSは、
+## フォント
+### Lucide(オープンソース)
+
+## アニメーション
+### Framer Motion
+
+
+<!-- # ToDo
 
 ### Figma
 
@@ -14,7 +38,7 @@
 + [ ] CMS導入
 + [ ] Fontカスタム(GoogleFont, AdobeFont etc...)
 + [x] Cloudflere(使うかはわからない)
-+ [x] Analytics導入(選定含め)
++ [x] Analytics導入(選定含め) -->
 
 <!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
