@@ -2,7 +2,7 @@
 ## アナリティクス
 ### Umami(オープンソース)
 アナリティクスのサービスは、企業向けのものが多く、またTypeScript用に書き換えたり、XSS対策をしないといけなかったりする必要があるので、使えるサービスが限られていました。<br/>
-その中で、導入しやすかったうちの一つが、Umamiでした。<br/>
+その中で、導入しやすかったうちの一つが、Umamiだったので、採用しました。<br/>
 [公式サイト](https://umami.is/) <br/>
 [リポジトリ](https://github.com/umami-software/umami)
 <!-- ### Cloudflare Insights
@@ -10,24 +10,29 @@ Umamiと同様で、導入しやすかったので、採用しました。<br/> 
 [公式サイト](https://www.cloudflare.com/ja-jp/web-analytics/)
 ## フレームワーク
 ### Next.js(オープンソース)
-ポートフォリオにはあまり適していないかもしれませんが、採用した理由としては、使ってみたかったという単純な理由です。<br/>
-[公式サイト](https://nextjs.org/)<br/>
-[リポジトリ](https://github.com/vercel/next.js)
+ポートフォリオにはあまり適していないかもしれませんが、採用した理由としては使ってみたかったという単純な理由です。<br/>
+[公式サイト](https://nextjs.org/) <br/>
+[リポジトリ](https://github.com/vercel/next.js) <br/>
+[Wappalyzer -Chromeウェブストア-](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ja&utm_source=ext_sidebar)
 ### Tailwind CSS(オープンソース)
 Tailwind CSSは、CSSのフレームワークで、HTMLのタグのクラスに直接CSSを割り当てられるので、便利です。<br/>
 ただ、可読性が減るので、大規模なチームでの開発などではあまり適していません。
-## アイコン
+## ライブラリ
 ### Lucide(オープンソース)
 Lucideは、リンクに飛ぶアイコンや、バッテリーのアイコンなどがReactなどのJavaScriptライブラリで使えるアイコンライブラリです。<br/>
-Wappalyzerを使って色々なサイトを見ていた時に見つけたので導入してみました。<br/>
+Wappalyzer(ブラウザの拡張機能)を使って色々なサイトを見ていた時に見つけたので導入してみました。<br/>
 自分のポートフォリオでどこで使っているかは容易に分かると思うので、当ててみてください。<br/>
-[公式サイト](https://lucide.dev/)<br/>
+[公式サイト](https://lucide.dev/) <br/>
 [リポジトリ](https://github.com/lucide-icons/lucide)
-## アニメーション
-### Framer Motion
+### Motion(旧Framer Motion)
+Motionは、ReactやVueなどに使えるアニメーションライブラリで、色々なアニメーションを実装できます。<br/>
+このポートフォリオでは、ハンバーガーメニューを開いた時のアニメーションに使いました。<br/>
+~ほぼすべてAIに書いてもらった。~ <br/>
+[公式サイト](https://motion.dev/) <br/>
+[リポジトリ](https://github.com/motiondivision/motion)
 
-
-<!-- # ToDo
+<!-- 
+# ToDo
 
 ### Figma
 
@@ -45,7 +50,8 @@ Wappalyzerを使って色々なサイトを見ていた時に見つけたので�
 + [x] Cloudflere(使うかはわからない)
 + [x] Analytics導入(選定含め) -->
 
-<!-- This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- 
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
