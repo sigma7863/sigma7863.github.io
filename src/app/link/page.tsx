@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
 import { ExternalLink } from 'lucide-react';
+
+export const metadata: Metadata = {
+  title: "Link",
+  description: "おすすめのサイトを載せています",
+}
 
 export default function Links() {
   return (
