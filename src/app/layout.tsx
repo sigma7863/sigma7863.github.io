@@ -18,7 +18,7 @@ export default function RootLayout({children}: Readonly<{children: React.ReactNo
       </Head>
       <body>
         <Script src="https://cloud.umami.is/script.js" data-website-id="c3579817-4c9c-45e5-aa3f-89f96eb742d8"></Script>
-        <Script src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ce7d048c0bcb4f008c39484f6c4301bc"}'></Script>
+        {/* <Script src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "ce7d048c0bcb4f008c39484f6c4301bc"}'></Script> */}
         <Header/>
           {children}
         <Footer/>
