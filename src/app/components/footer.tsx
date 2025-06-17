@@ -9,7 +9,7 @@ export default function Footer() {
           © 2025 Sigma7863{" "}
           <span className="whitespace-nowrap">
             このサイトの技術スタックは
-            <a href="/techstack" className="inline-flex items-center space-x-1 ml-1 underline hover:no-underline">
+            <a href="https://github.com/sigma7863/sigma7863.github.io/blob/master/README.md" className="inline-flex items-center space-x-1 ml-1 underline hover:no-underline">
               <span>こちらから</span>
               <ExternalLink className="w-4 h-4" />
             </a>
