@@ -1,5 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Works",
+  description: "自分が作った制作物を載せています",
+}
 
 export default function Works() {
   return (
