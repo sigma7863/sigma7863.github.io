@@ -5,8 +5,8 @@
 その中で、導入しやすかったうちの一つが、Umamiでした。<br/>
 [公式サイト](https://umami.is/) <br/>
 [リポジトリ](https://github.com/umami-software/umami)
-### Cloudflare Insights
-Umamiと同様で、導入しやすかったので、採用しました。<br/>
+<!-- ### Cloudflare Insights
+Umamiと同様で、導入しやすかったので、採用しました。<br/> -->
 [公式サイト](https://www.cloudflare.com/ja-jp/web-analytics/)
 ## フレームワーク
 ### Next.js(オープンソース)
