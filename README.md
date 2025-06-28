@@ -24,7 +24,7 @@ Lucideは、リンクに飛ぶアイコンや、バッテリーのアイコン�
 Wappalyzer(ブラウザの拡張機能)を使って色々なサイトを見ていた時に見つけたので導入してみました。<br/>
 自分のポートフォリオでどこで使っているかは容易に分かると思うので、当ててみてください。<br/>
 [Lucide 公式サイト](https://lucide.dev/) <br/>
-[Lucide リポジトリ](https://github.com/lucide-icons/lucide)
+[Lucide リポジトリ](https://github.com/lucide-icons/lucide) <br/>
 [Wappalyzer -Chromeウェブストア-](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ja&utm_source=ext_sidebar)
 ### ・Motion(旧Framer Motion)
 Motionは、ReactやVueなどに使えるアニメーションライブラリで、色々なアニメーションを実装できます。<br/>
