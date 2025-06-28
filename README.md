@@ -15,7 +15,7 @@ Umamiと同様で、導入しやすかったので、採用しました。<br/>
 [Next.js リポジトリ](https://github.com/vercel/next.js) <br/>
 ### ・Tailwind CSS(オープンソース)
 Tailwind CSSは、CSSのフレームワークで、HTMLのタグのクラスに直接CSSを割り当てられるので、便利です。<br/>
-ただ、可読性が減るので、大規模なチームでの開発など使うのにはあまり適していません。
+ただ、可読性が減るので、大規模なチームでの開発など使うのにはあまり適していません。<br/>
 [Tailwind CSS 公式サイト](https://tailwindcss.com/) <br/>
 [Tailwind CSS リポジトリ](https://github.com/tailwindlabs/tailwindcss) <br/>
 ## ライブラリ
