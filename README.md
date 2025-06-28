@@ -18,7 +18,6 @@ Tailwind CSSは、CSSのフレームワークで、HTMLのタグのクラスに�
 ただ、可読性が減るので、大規模なチームでの開発など使うのにはあまり適していません。
 [Tailwind CSS 公式サイト](https://tailwindcss.com/) <br/>
 [Tailwind CSS リポジトリ](https://github.com/tailwindlabs/tailwindcss) <br/>
-[]
 ## ライブラリ
 ### ・Lucide(オープンソース)
 Lucideは、リンクに飛ぶアイコンや、バッテリーのアイコンなどがReactなどのJavaScriptライブラリで使えるアイコンライブラリです。<br/>
