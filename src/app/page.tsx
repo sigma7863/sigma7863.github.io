@@ -8,7 +8,7 @@ export default function Home() {
       <main className="min-h-screen bg-blue-900 text-white container mx-auto px-4">
         <div className="max-w-4xl mx-auto px-4 py-8">
           <section className="flex flex-col sm:flex-row gap-8 mb-8 items-center">
-            <Image src="/about/my-icon.png" width={180} height={180} alt="my-icon" className="flex justify-center md:justify-start"/>
+            <Image src="/about-Image/my-icon.png" width={180} height={180} alt="my-icon" className="flex justify-center md:justify-start"/>
             <div className="space-y-2">
               <h2 className="text-3xl font-medium">こんにちは、シグマです！</h2>
               <p className="text-lg">怠惰に過ごしていますが、</p>
@@ -25,7 +25,7 @@ export default function Home() {
                   <span className="text-xl">•</span>
                   <span className="text-[1.4rem]">プログラミング</span>
                 </div>
-                <p className="text-xl ml-4 mb-4">最近はThree.jsに興味を持っている</p>
+                <p className="text-xl ml-4 mb-4">最近はUnityでのシュミレーションや、Rustで数学系のツール作成に興味を持っている</p>
               </li>
               <li>
                 <div className="flex items-center gap-2">
@@ -39,7 +39,7 @@ export default function Home() {
                   <span className="text-xl">•</span>
                   <span className="text-[1.4rem]">読書</span>
                 </div>
-                <p className="text-xl ml-4 mb-1">哲学系の本や技術書を読んでいる<br/></p>
+                <p className="text-xl ml-4 mb-1">哲学系の本や小説を読んでいる<br/></p>
                 <p className="text-xl line-through ml-4 mb-4">1日に読む時間は少ない</p>
               </li>
             </ul>
@@ -48,11 +48,10 @@ export default function Home() {
           <section className="mb-12">
             <h2 className="text-[1.7rem] font-medium mb-1">Link</h2>
             <p className="text-xl mb-6">フォロー ・ フレンド いつでも大歓迎です！</p>
-
-            <div className="grid grid-cols-2 sm:grid-cols-6">
+            <div className="grid grid-cols-2 md:grid-cols-6">
               <Link href="https://x.com/sigma_7863" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
                 <div className="w-16 h-16 flex items-center justify-center">
-                  <Image src="/about/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current hover:cyan-500" alt="x-logo"/>
+                  <Image src="/about-Image/x-logo.png" width={40} height={40} className="w-12 h-12 fill-current hover:cyan-500" alt="x-logo"/>
                 </div>
                 <p className="text-center inline-flex items-center space-x-1">
                   <span>X(Twitter)</span>
@@ -63,7 +62,7 @@ export default function Home() {
 
               <Link href="https://github.com/sigma7863" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
                 <div className="w-16 h-16 flex items-center justify-center">
-                  <Image src="/about/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="github-logo"/>
+                  <Image src="/about-Image/github-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="github-logo"/>
                 </div>
                 <p className="text-center inline-flex items-center space-x-1">
                  <span>Github</span>
@@ -74,7 +73,7 @@ export default function Home() {
 
               <Link href="http://discordapp.com/users/1078241292422762579" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
                 <div className="w-16 h-16 flex items-center justify-center">
-                  <Image src="/about/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
+                  <Image src="/about-Image/discord-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="discord-logo"/>
                 </div>
                 <p className="text-center inline-flex items-center space-x-1">
                   <span>Discord</span>
@@ -82,6 +81,29 @@ export default function Home() {
                 </p>
                 <p className="text-center">sigma_7863</p>
               </Link>
+
+               <Link href="https://atcoder.jp/users/ido_7863" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
+                <div className="w-16 h-16 flex items-center justify-center">
+                  <Image src="/about-Image/atcoder-logo.png" width={40} height={40} className="w-12 h-12 fill-current" alt="atcoder-logo"/>
+                </div>
+                <p className="text-center inline-flex items-center space-x-1">
+                  <span>AtCoder</span>
+                  <ExternalLink className="w-4 h-4" />
+                </p>
+                <p className="text-center">ido_7863</p>
+              </Link>
+
+              <Link href="https://bookmeter.com/users/1590292" target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
+                <div className="w-16 h-16 flex items-center justify-center">
+                  <Image src="/about-Image/book-meter-logo.png" width={40} height={40} className="w-16 h-16 fill-current" alt="book-meter-logo"/>
+                </div>
+                <p className="text-center inline-flex items-center space-x-1">
+                  <span>読書メーター</span>
+                  <ExternalLink className="w-4 h-4" />
+                </p>
+                <p className="text-center">Sigma</p>
+              </Link>
+
             </div>
           </section>
 
