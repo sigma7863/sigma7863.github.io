@@ -21,7 +21,7 @@ export default function Works() {
               target="_blank"
               className="bg-[#c2cafc] text-black rounded-2xl overflow-hidden hover:scale-102 transition-transform duration-180"
             >
-              <Image src="/works/splatoon3-spreadsheet.png" alt="splatoon3-spreadsheet" width={345.7} height={163.8} className="w-full h-auto"/>
+              <Image src="/works-Image/splatoon3-spreadsheet.png" alt="splatoon3-spreadsheet" width={345.7} height={163.8} className="w-full h-auto"/>
               <div className="p-4">
                 <h2 className="text-xl font-bold inline-flex items-center gap-0.5">スプラトゥーン3 スプレッドシート</h2>
                 <p className="text-base mt-1">
