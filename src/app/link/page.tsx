@@ -39,7 +39,7 @@ export default function Links() {
               </div>
             </Link>
         
-            <Link href="http://juppo.seesaa.net" target="_blank" className="flex items-start space-x-4 hover:underline">
+            <Link href="http://juppo.seesaa.net" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
               <Image src="/Link-Image/HighSchoolClassic-logo.jpg" alt="HighSchoolClassic-logo" width={40} height={40} className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
@@ -49,6 +49,29 @@ export default function Links() {
                 <p>教科書に掲載されている古文を4コマ漫画で解説しているサイト</p>
               </div>
             </Link>
+
+            <Link href="https://ktgis.net/kjmapw/index.html" target="_blank" className="flex items-start space-x-4 hover:underline">
+              <Image src="/Link-Image/title.png" alt="HighSchoolClassic-logo" width={40} height={40} className="w-15 h-12"/>
+              <div>
+                <div className="flex items-center space-x-1">
+                  <h3 className="text-xl font-bold">今昔マップ on the web</h3>
+                  <ExternalLink className="w-5 h-5" />
+                </div>
+                <p>江戸～昭和期の古地図を現在地図に重ねて閲覧できるサイト</p>
+              </div>
+            </Link>
+
+            <Link href="http://juppo.seesaa.net" target="_blank" className="flex items-start space-x-4 hover:underline">
+              <Image src="/Link-Image/title.png" alt="HighSchoolClassic-logo" width={40} height={40} className="w-15 h-12"/>
+              <div>
+                <div className="flex items-center space-x-1">
+                  <h3 className="text-xl font-bold">今昔マップ on the web</h3>
+                  <ExternalLink className="w-5 h-5" />
+                </div>
+                <p>江戸～昭和期の古地図を現在地図に重ねて閲覧できるサイト</p>
+              </div>
+            </Link>
+
           </section>
         </div>  
       </main>
