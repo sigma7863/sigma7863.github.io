@@ -29,7 +29,7 @@ Wappalyzer(ブラウザの拡張機能)を使って色々なサイトを見て�
 ### Motion(旧Framer Motion)
 Motionは、ReactやVueなどに使えるアニメーションライブラリで、色々なアニメーションを実装できます。<br/>
 このポートフォリオでは、ハンバーガーメニューを開いた時のアニメーションに使いました。<br/>
-~ほぼすべてAIに書いてもらいました。~ <br/>
+~ほぼすべてAIに書いてもらった。~ <br/>
 [Motion 公式サイト](https://motion.dev/) <br/>
 [Motion リポジトリ](https://github.com/motiondivision/motion)
 
