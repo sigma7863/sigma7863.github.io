@@ -1,6 +1,6 @@
 # 技術スタック
 ## アナリティクス
-### ・Umami(オープンソース)
+### Umami(オープンソース)
 アナリティクスのサービスは、企業向けのものが多く、またアナリティクスを収集するスクリプトをTypeScript用に書き換えたり、XSS対策をしないといけなかったりする必要があるので、使えるサービスが限られていました。<br/>
 その中で、導入しやすかったうちの一つが、Umamiだったので、採用しました。<br/>
 [Umami 公式サイト](https://umami.is/) <br/>
@@ -9,24 +9,24 @@
 Umamiと同様で、導入しやすかったので、採用しました。<br/> 
 [公式サイト](https://www.cloudflare.com/ja-jp/web-analytics/) -->
 ## フレームワーク
-### ・Next.js(オープンソース)
+### Next.js(オープンソース)
 ポートフォリオにはあまり適していないかもしれませんが、採用した理由としては使ってみたかったという単純な理由です。<br/>
 [Next.js 公式サイト](https://nextjs.org/) <br/>
 [Next.js リポジトリ](https://github.com/vercel/next.js) <br/>
-### ・Tailwind CSS(オープンソース)
+### Tailwind CSS(オープンソース)
 Tailwind CSSは、CSSのフレームワークで、HTMLのタグのクラスに直接CSSを割り当てられるので、便利です。<br/>
 ただ、可読性が減るので、大規模なチームでの開発など使うのにはあまり適していません。<br/>
 [Tailwind CSS 公式サイト](https://tailwindcss.com/) <br/>
 [Tailwind CSS リポジトリ](https://github.com/tailwindlabs/tailwindcss) <br/>
 ## ライブラリ
-### ・Lucide(オープンソース)
+### Lucide(オープンソース)
 Lucideは、リンクに飛ぶアイコンや、バッテリーのアイコンなどがReactなどのJavaScriptライブラリで使えるアイコンライブラリです。<br/>
 Wappalyzer(ブラウザの拡張機能)を使って色々なサイトを見ていた時に見つけたので導入してみました。<br/>
 自分のポートフォリオでどこで使っているかは容易に分かると思うので、当ててみてください。<br/>
 [Lucide 公式サイト](https://lucide.dev/) <br/>
 [Lucide リポジトリ](https://github.com/lucide-icons/lucide) <br/>
 [Wappalyzer -Chromeウェブストア-](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=ja&utm_source=ext_sidebar)
-### ・Motion(旧Framer Motion)
+### Motion(旧Framer Motion)
 Motionは、ReactやVueなどに使えるアニメーションライブラリで、色々なアニメーションを実装できます。<br/>
 このポートフォリオでは、ハンバーガーメニューを開いた時のアニメーションに使いました。<br/>
 ~ほぼすべてAIに書いてもらった。~ <br/>
