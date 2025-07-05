@@ -50,8 +50,8 @@ export default function Links() {
               </div>
             </Link>
 
-            <Link href="https://ktgis.net/kjmapw/index.html" target="_blank" className="flex items-start space-x-4 hover:underline">
-              <Image src="/Link-Image/title.png" alt="HighSchoolClassic-logo" width={40} height={40} className="w-15 h-12"/>
+            <Link href="https://ktgis.net/kjmapw/index.html" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
+              <Image src="/Link-Image/TimeSeriesTopographicMap-logo.png" alt="TimeSeriesTopographicMap-logo" width={40} height={40} className="w-15 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
                   <h3 className="text-xl font-bold">今昔マップ on the web</h3>
@@ -61,14 +61,14 @@ export default function Links() {
               </div>
             </Link>
 
-            <Link href="http://juppo.seesaa.net" target="_blank" className="flex items-start space-x-4 hover:underline">
-              <Image src="/Link-Image/title.png" alt="HighSchoolClassic-logo" width={40} height={40} className="w-15 h-12"/>
+            <Link href="https://app.molview.com/" target="_blank" className="flex items-start space-x-4 hover:underline">
+              <Image src="/Link-Image/molview-logo.png" alt="molview-logo" width={40} height={40} className="w-14 h-14"/>
               <div>
                 <div className="flex items-center space-x-1">
-                  <h3 className="text-xl font-bold">今昔マップ on the web</h3>
+                  <h3 className="text-xl font-bold">MolView</h3>
                   <ExternalLink className="w-5 h-5" />
                 </div>
-                <p>江戸～昭和期の古地図を現在地図に重ねて閲覧できるサイト</p>
+                <p>ブラウザで化学構造式を描画できるサイト</p>
               </div>
             </Link>
 
