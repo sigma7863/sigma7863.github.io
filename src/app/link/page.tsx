@@ -32,7 +32,7 @@ export default function Links() {
               <Image src="/Link-Image/omt-logo.png" alt="OMT-Icon" width={40} height={40} className="w-12 h-12"/>
               <div>
                 <div className="flex items-center space-x-1">
-                  <h3 className="text-xl font-bold">Onlineminitools.com</h3>
+                  <h3 className="text-xl font-bold">OnlineminiTools</h3>
                   <ExternalLink className="w-5 h-5" />
                 </div>
                 <p className="text-shadow-md">Webサイトのファビコンのダウンロードやパスワード生成など、便利なツールを色々提供しているサイト</p>
