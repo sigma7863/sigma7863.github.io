@@ -17,7 +17,7 @@ export default function Links() {
             <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
             <p className="text-xl mb-3">随時載せていく予定です</p>
             <p className="text-xl text-white mb-6">更新日: 2025年7月20日</p>
-            <p className="text-2xl font-bold text-teal-500 mb-4">ツール系</p>
+            <p className="text-2xl font-bold text-teal-400 mb-4">ツール系</p>
         
             <Link href="https://splatoon3.ink" target="_blank" className="flex items-start space-x-4 mb-6 hover:underline">
               <Image src="/Link-Image/splatoon3Ink-logo.png" alt="Splatoon3-Icon" width={40} height={40}  className="w-12 h-12"/>
