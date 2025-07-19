@@ -11,7 +11,7 @@ export default function Footer() {
             このサイトの技術スタックは
             <a href="https://github.com/sigma7863/sigma7863.github.io/blob/master/README.md" target="_blank" className="inline-flex items-center space-x-1 ml-1 underline hover:no-underline">
               <span>こちらから</span>
-              <ExternalLink className="w-4 h-4" />
+              <ExternalLink className="w-4 h-4"/>
             </a>
           </span>
         </p>
