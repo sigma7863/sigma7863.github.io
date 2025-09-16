@@ -1,0 +1,37 @@
+[
+  {
+    "href": "https://x.com/sigma_7863",
+    "imgSrc": "/about-Image/x-logo.png",
+    "alt": "x-logo",
+    "label": "X(Twitter)",
+    "username": "@sigma_7863"
+  },
+  {
+    "href": "https://github.com/sigma7863",
+    "imgSrc": "/about-Image/github-logo.png",
+    "alt": "github-logo",
+    "label": "Github",
+    "username": "sigma7863"
+  },
+  {
+    "href": "http://discordapp.com/users/1078241292422762579",
+    "imgSrc": "/about-Image/discord-logo.png",
+    "alt": "discord-logo",
+    "label": "Discord",
+    "username": "sigma_7863"
+  },
+  {
+    "href": "https://atcoder.jp/users/ido_7863",
+    "imgSrc": "/about-Image/atcoder-logo.png",
+    "alt": "atcoder-logo",
+    "label": "AtCoder",
+    "username": "ido_7863"
+  },
+  {
+    "href": "https://bookmeter.com/users/1590292",
+    "imgSrc": "/about-Image/book-meter-logo.png",
+    "alt": "book-meter-logo",
+    "label": "読書メーター",
+    "username": "Sigma"
+  }
+]

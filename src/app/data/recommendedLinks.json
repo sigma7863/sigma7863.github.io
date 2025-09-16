@@ -1,0 +1,67 @@
+{
+  "updatedAt": "2025-07-20",
+  "links": [
+    {
+      "href": "https://splatoon3.ink",
+      "imgSrc": "/Link-Image/splatoon3Ink-logo.png",
+      "alt": "Splatoon3-Icon",
+      "title": "Splatoon3.ink",
+      "description": "スプラ3のバンカラマッチやサーモンランなどのスケジュールをブラウザで見れるサイト"
+    },
+    {
+      "href": "https://onlineminitools.com",
+      "imgSrc": "/Link-Image/omt-logo.png",
+      "alt": "OMT-Icon",
+      "title": "OnlineminiTools",
+      "description": "Webサイトのファビコンのダウンロードやパスワード生成など、便利なツールを色々提供しているサイト"
+    },
+    { "href": "http://juppo.seesaa.net",
+      "imgSrc": "/Link-Image/HighSchoolClassic-logo.jpg", 
+      "alt": "HighSchoolClassic-logo", 
+      "title": "高校古文こういう話", 
+      "description": "教科書に掲載されている古文を4コマ漫画で解説しているサイト"
+    },
+    { "href": "https://ktgis.net/kjmapw/index.html",
+      "imgSrc": "/Link-Image/TimeSeriesTopographicMap-logo.png",
+      "alt": "TimeSeriesTopographicMap-logo",
+      "title": "今昔マップ on the web",
+      "description": "江戸～昭和期の古地図を現在地図に重ねて閲覧できるサイト"
+    },
+    { "href": "https://app.molview.com/",
+      "imgSrc": "/Link-Image/molview-logo.png",
+      "alt": "molview-logo",
+      "title": "MolView",
+      "description": "ブラウザで化学構造式を描画できるサイト"
+    },
+    { "href": "https://www.freepublicapis.com/",
+      "imgSrc": "/Link-Image/free-public-apis-logo.png",
+      "alt": "free-public-apis-logo",
+      "title": "Free Public APIs",
+      "description": "無料で使えるAPIの一覧(ゲームや雑誌など)が載っているサイト"
+    },
+    { "href": "https://www.flightradar24.com/",
+      "imgSrc": "/Link-Image/flightradar24-logo.png",
+      "alt": "flightradar24-logo",
+      "title": "flightradar24",
+      "description": "世界で飛んでいる飛行機をリアルタイムで見れるサイト"
+    },
+    { "href": "https://fonts.google.com/",
+      "imgSrc": "/Link-Image/google-font-logo.png",
+      "alt": "google-font-logo",
+      "title": "Google Fonts",
+      "description": "Googleが提供しているフォントの一覧が見れるサイト"
+    },
+    { "href": "https://unityroom.com/",
+      "imgSrc": "/Link-Image/unity-room-logo.png",
+      "alt": "unity-room-logo",
+      "title": "Unityroom",
+      "description": "Unityを使って作られたゲームを遊べるサイト"
+    },
+    { "href": "https://www.8bitdash.com/",
+      "imgSrc": "/Link-Image/8bitdash-logo.png",
+      "alt": "8bitdash-logo",
+      "title": "8bitdash.com",
+      "description": "8bitのデジタルの時刻が表示されるサイト"
+    }
+  ]
+}
