@@ -9,7 +9,7 @@ export default function HobbyList() {
             <span className="text-[1.4rem]">プログラミング</span>
           </div>
           <p className="text-xl ml-4 mb-4">
-            最近はUnityでのシュミレーションや、Rustで数学系のツール作成に興味を持っている
+            最近はRustやShellScriptに興味を持っている
           </p>
         </li>
         <li>
@@ -24,8 +24,8 @@ export default function HobbyList() {
             <span className="text-xl">•</span>
             <span className="text-[1.4rem]">読書</span>
           </div>
-          <p className="text-xl ml-4 mb-1">哲学系の本や小説を読んでいる<br/></p>
-          <p className="text-xl line-through ml-4 mb-4">1日に読む時間は少ない</p>
+          <p className="text-xl ml-4 mb-1">色々読んでいる<br/></p>
+          <p className="text-xl line-through ml-4 mb-4">読むスピードが遅いので1日に読む時間は少ない</p>
         </li>
       </ul>
     </section>
