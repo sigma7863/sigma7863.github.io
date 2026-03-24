@@ -14,7 +14,7 @@
     "dayjs": "^1.11.13",
     "framer-motion": "^12.17.0",
     "html-react-parser": "^5.2.4",
-    "lucide-react": "^0.577.0",
+    "lucide-react": "^1.0.1",
     "microcms-js-sdk": "^3.2.0",
     "newt-client-js": "^3.3.8",
     "next": "^16.1.6",
