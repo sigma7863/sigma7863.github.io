@@ -6,7 +6,7 @@
 [Umami 公式サイト](https://umami.is/) <br/>
 [Umami リポジトリ](https://github.com/umami-software/umami)
 <!-- ### Cloudflare Insights
-Umamiと同様で、導入しやすかったので、採用しました。<br/> 
+Umamiと同様で、導入しやすかったので、採用しました。<br/>
 [公式サイト](https://www.cloudflare.com/ja-jp/web-analytics/) -->
 ## フレームワーク
 ### Next.js(オープンソース)
@@ -33,7 +33,7 @@ Motionは、ReactやVueなどに使えるアニメーションライブラリで
 [Motion 公式サイト](https://motion.dev/) <br/>
 [Motion リポジトリ](https://github.com/motiondivision/motion)
 
-<!-- 
+<!--
 # ToDo
 
 ### Figma
@@ -52,7 +52,7 @@ Motionは、ReactやVueなどに使えるアニメーションライブラリで
 + [x] Cloudflere(使うかはわからない)
 + [x] Analytics導入(選定含め) -->
 
-<!-- 
+<!--
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
