@@ -16,9 +16,9 @@
       "description": "Webサイトのファビコンのダウンロードやパスワード生成など、便利なツールを色々提供しているサイト"
     },
     { "href": "http://juppo.seesaa.net",
-      "imgSrc": "/Link-Image/HighSchoolClassic-logo.jpg",
-      "alt": "HighSchoolClassic-logo",
-      "title": "高校古文こういう話",
+      "imgSrc": "/Link-Image/HighSchoolClassic-logo.jpg", 
+      "alt": "HighSchoolClassic-logo", 
+      "title": "高校古文こういう話", 
       "description": "教科書に掲載されている古文を4コマ漫画で解説しているサイト"
     },
     { "href": "https://ktgis.net/kjmapw/index.html",
