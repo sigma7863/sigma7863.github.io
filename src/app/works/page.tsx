@@ -15,7 +15,7 @@ export default function Works() {
           <h1 className="text-4xl font-bold mb-4">Works</h1>
           <p className="text-xl mb-1">過去に作ったやつを載せています</p>
           <p className="text-xl mb-8">大したことはしていません</p>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-stretch">
             <Link href="https://docs.google.com/spreadsheets/d/1CHVfHxc5I3HMjK6TT19GLWB0EyuDyx4iaTRm2h4iTQs/edit?usp=sharing"
               target="_blank"
@@ -29,13 +29,13 @@ export default function Works() {
                 </p>
               </div>
             </Link>
-            
+
             <div className="flex flex-col bg-[#cdd2fb] rounded-2xl p-4 h-full min-h-[265px] justify-center items-center text-center shadow-md">
               <p className="text-black text-xl mb-2">？？？</p>
               <h2 className="text-black text-lg font-bold">ComingSoon...</h2>
               <h2 className="text-black text-lg">一応やりたいことは決まっている</h2>
             </div>
-            
+
             <div className="bg-[#c2cafc] rounded-2xl h-full" />
           </div>
         </div>
