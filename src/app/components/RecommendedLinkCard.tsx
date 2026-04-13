@@ -14,14 +14,14 @@ export default function RecommendedLinkCard({ href, imgSrc, alt, title, descript
   return (
     <Link href={href} target="_blank" className="flex items-start space-x-4 mb-8 hover:underline">
       <div className="w-12 h-12 relative flex-shrink-0">
-        <Image
-          src={imgSrc}
-          alt={alt}
-          fill
+        <Image 
+          src={imgSrc} 
+          alt={alt} 
+          fill 
           sizes="48px"
           style={{ objectFit: "contain" }}
           className=""
-          priority={true}
+          priority={true} 
         />
       </div>
       <div>
