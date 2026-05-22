@@ -8,7 +8,7 @@ export default function ReciprocalLinkRequest() {
       <p className="text-xl">
         載せて欲しい方がいましたら、
         <span className="inline-flex items-center space-x-1">
-          <Link href="https://x.com/sigma_7863" target="_blank" className="text-green-400 hover:underline">
+          <Link href="https://x.com/sigma_7863" target="_blank" rel="noopener noreferrer" className="text-green-400 hover:underline">
             XのDM(@sigma_7863)
           </Link>
           <ExternalLink className="text-green-400 w-5 h-5" />
