@@ -19,6 +19,7 @@ export default function Works() {
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 items-stretch">
             <Link href="https://docs.google.com/spreadsheets/d/1CHVfHxc5I3HMjK6TT19GLWB0EyuDyx4iaTRm2h4iTQs/edit?usp=sharing"
               target="_blank"
+              rel="noopener noreferrer"
               className="bg-[#c2cafc] text-black rounded-2xl overflow-hidden hover:scale-102 transition-transform duration-180"
             >
               <Image src="/works-Image/splatoon3-spreadsheet.png" alt="splatoon3-spreadsheet" width={345.7} height={163.8} className="w-full h-auto"/>

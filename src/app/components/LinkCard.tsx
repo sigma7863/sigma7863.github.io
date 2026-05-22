@@ -12,7 +12,7 @@ type LinkCardProps = {
 
 export default function LinkCard({ href, imgSrc, alt, label, username }: LinkCardProps) {
   return (
-    <Link href={href} target="_blank" className="flex flex-col items-center hover:text-[#68dbca]">
+    <Link href={href} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-[#68dbca]">
       <div className="w-16 h-16 flex items-center justify-center">
         <Image src={imgSrc} width={40} height={40} alt={alt} className="w-12 h-12 fill-current" />
       </div>

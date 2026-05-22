@@ -12,7 +12,7 @@ type RecommendedLinkCardProps = {
 
 export default function RecommendedLinkCard({ href, imgSrc, alt, title, description }: RecommendedLinkCardProps) {
   return (
-    <Link href={href} target="_blank" className="flex items-start space-x-4 mb-8 hover:underline">
+    <Link href={href} target="_blank" rel="noopener noreferrer" className="flex items-start space-x-4 mb-8 hover:underline">
       <div className="w-12 h-12 relative flex-shrink-0">
         <Image 
           src={imgSrc} 
