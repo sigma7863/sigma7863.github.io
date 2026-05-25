@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 export default function NotFound() {
   return (
     <div className="flex flex-col min-h-screen bg-blue-900 text-white">
-      <main className="mt-6 sm:flex-grow flex flex-col justify-center items-center px-4 text-center space-y-8">
-        <h1 className="text-8xl font-bold">404</h1>
+      <main className="mt-6 sm:flex-grow flex flex-col justify-center items-center px-4 text-center gap-y-8">
+        <h1 className="text-8xl font-semibold">404</h1>
         <h2 className="text-4xl text-cyan-300 font-semibold">
           ページが…見つからない！？
         </h2>
