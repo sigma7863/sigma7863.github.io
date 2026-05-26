@@ -3,19 +3,26 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import {
+  AnimatePresence,
+  LazyMotion,
+  domAnimation,
+  m,
+  useReducedMotion,
+} from "framer-motion";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const shouldReduceMotion = useReducedMotion();
   const toggleMenu = () => setMenuOpen((prev) => !prev);
   const menuItemVariants = {
-    hidden: { opacity: 0, y: 10 },
+    hidden: { opacity: 0, y: shouldReduceMotion ? 0 : 10 },
     visible: (i: number) => ({
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.08,
-        duration: 0.3,
+        delay: shouldReduceMotion ? 0 : i * 0.08,
+        duration: shouldReduceMotion ? 0 : 0.3,
       },
     }),
   };
@@ -27,37 +34,39 @@ export default function Header() {
   ];
 
   return (
-    <>
+    <LazyMotion features={domAnimation}>
+      <>
       <header className="bg-indigo-200 p-4 flex justify-between items-center z-50 relative">
         <div className="flex items-center">
           <button
+            type="button"
             onClick={toggleMenu}
-            className="sm:hidden mr-4 text-purple-800 relative w-8 h-8"
+            className="sm:hidden mr-4 text-purple-800 relative size-8"
             aria-label="メニューを開閉"
           >
             <AnimatePresence mode="wait" initial={false}>
               {menuOpen ? (
-                <motion.span
+                <m.span
                   key="close"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15 }}
+                  transition={{ duration: shouldReduceMotion ? 0 : 0.15 }}
                   className="absolute inset-0 flex items-center justify-center"
                 >
                   <X size={28} />
-                </motion.span>
+                </m.span>
               ) : (
-                <motion.span
+                <m.span
                   key="menu"
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
-                  transition={{ duration: 0.15 }}
+                  transition={{ duration: shouldReduceMotion ? 0 : 0.15 }}
                   className="absolute inset-0 flex items-center justify-center"
                 >
                   <Menu size={28} />
-                </motion.span>
+                </m.span>
               )}
             </AnimatePresence>
           </button>
@@ -83,22 +92,22 @@ export default function Header() {
       {/* モバイルメニュー */}
       <AnimatePresence>
         {menuOpen && (
-          <motion.div
+          <m.div
             key="mobile-menu"
-            initial={{ y: -20, opacity: 0 }}
+            initial={{ y: shouldReduceMotion ? 0 : -20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
-            exit={{ y: -20, opacity: 0 }}
-            transition={{ duration: 0.25 }}
+            exit={{ y: shouldReduceMotion ? 0 : -20, opacity: 0 }}
+            transition={{ duration: shouldReduceMotion ? 0 : 0.25 }}
             className="sm:hidden bg-indigo-100 text-purple-900 shadow-md fixed top-[64px] left-0 w-full z-40"
           >
-            <motion.ul
+            <m.ul
               initial="hidden"
               animate="visible"
               exit="hidden"
               className="flex flex-col items-start pt-4 pb-4 pl-6 pr-4"
             >
               {menuItems.map(({ label, href }, i) => (
-                <motion.li
+                <m.li
                   key={label}
                   custom={i}
                   variants={menuItemVariants}
@@ -114,12 +123,13 @@ export default function Header() {
                   >
                     {label}
                   </Link>
-                </motion.li>
+                </m.li>
               ))}
-            </motion.ul>
-          </motion.div>
+            </m.ul>
+          </m.div>
         )}
       </AnimatePresence>
-    </>
+      </>
+    </LazyMotion>
   );
 }

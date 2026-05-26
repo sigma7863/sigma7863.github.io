@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import ProfileSection from "@/components/ProfileSection";
 import HobbyList from "@/components/HobbyList";
 import LinkCard from "@/components/LinkCard";
 import ReciprocalLinkRequest from "@/components/ReciprocalLinkRequest";
 import links from "@/data/links.json";
+
+export const metadata: Metadata = {
+  title: "Home",
+  description: "シグマのWEBサイトのホームページです",
+};
 
 export default function Home() {
   return (

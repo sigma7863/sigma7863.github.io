@@ -12,7 +12,7 @@ export default function Links() {
     <main className="min-h-screen bg-blue-900 text-white container mx-auto px-2">
       <div className="max-w-4xl mx-auto px-4 py-8">
         <section>
-          <h2 className="text-3xl font-bold mb-2">おすすめのサイト</h2>
+          <h2 className="text-3xl font-semibold mb-2">おすすめのサイト</h2>
           <p className="text-xl mb-3">随時載せていく予定です</p>
           <p className="text-xl text-white mb-6">
             更新日: {data.updatedAt}
