@@ -25,6 +25,6 @@
     "eslint-config-next": "^16.1.6",
     "eslint-plugin-import": "^2.31.0",
     "tailwindcss": "^4",
-    "typescript": "^6.0.2"
+    "typescript": "^7.0.2"
   }
 }
